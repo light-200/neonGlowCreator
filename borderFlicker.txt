@@ -1,0 +1,66 @@
+@keyframes border-flicker {
+  2% {
+    border: 3px solid glowColor;
+    box-shadow: 0 0 15px -1px glowColor, 
+    0 0 12px -1px glowColor inset;
+  }
+  3% {
+    border: 3px solid darkShade;
+    box-shadow: none;
+  }
+  5% {
+    border: 3px solid glowColor;
+    box-shadow: 0 0 15px -1px glowColor, 
+    0 0 12px -1px glowColor inset;
+  }
+  6% {
+    border: 3px solid darkShade;
+    box-shadow: none;
+  }
+  7% {
+    border: 3px solid glowColor;
+    box-shadow: 0 0 15px -1px glowColor, 
+    0 0 12px -1px glowColor inset;
+  }
+  9% {
+    border: 3px solid darkShade;
+    box-shadow: none;
+  }
+  13% {
+    border: 3px solid glowColor;
+    box-shadow: 0 0 15px -1px glowColor, 
+    0 0 12px -1px glowColor inset;
+  }
+  16% {
+    border: 3px solid darkShade;
+    box-shadow: none;
+  }
+  18% {
+    border: 3px solid glowColor;
+    box-shadow: 0 0 15px -1px glowColor, 
+    0 0 12px -1px glowColor inset;
+  }
+  22% {
+    border: 3px solid darkShade;
+    box-shadow: none;
+  }
+  34% {
+    border: 3px solid glowColor;
+    box-shadow: 0 0 15px -1px glowColor, 
+    0 0 12px -1px glowColor inset;
+  }
+  36% {
+    border: 3px solid darkShade;
+    box-shadow: none;
+  }
+  54% {
+    border: 3px solid glowColor;
+    box-shadow: 0 0 15px -1px glowColor, 
+    0 0 12px -1px glowColor inset;
+  }
+  100% {
+    border: 3px solid glowColor;
+    box-shadow: 0 0 15px -1px glowColor, 
+    0 0 12px -1px glowColor inset;
+  }
+}
